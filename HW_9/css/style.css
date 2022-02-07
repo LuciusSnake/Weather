@@ -1,0 +1,179 @@
+:root a:hover {
+    color: #00bac7;
+}
+
+:root a {
+    text-decoration: none;
+    color: #504f4f;
+}
+
+body {
+    color: #504f4f;
+}
+
+.nav_top {
+    background-color: #252324;
+}
+
+.logo_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo_wrapper img {
+    padding: 20px 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons p a {
+    color: #c1c1c1;
+    padding: 0 10px;
+}
+
+form {
+    position: relative;
+    margin-right: 15px;
+}
+
+form p input {
+    border-radius: 4px;
+}
+
+input:placeholder-shown {
+    padding-left: 5px;
+}
+
+
+
+.nav_bot_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav_bot_wrapper ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.nav_bot_wrapper ul li:not(:first-child) {
+    padding-left: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.text h2 {
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.text h2 span {
+    font-weight: bold;
+}
+
+.option {
+    text-align: center;   
+} 
+
+.option .fas {
+    margin-bottom: 20px;
+}
+
+.option:last-child h5 {
+    padding-top: 4px;
+}
+
+
+.oops {
+    background-color: #eeeeee;
+}
+
+.card {
+   margin: 20px 0;
+}
+
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+
+.footer_top, .footer_bot {
+    color: white;
+    padding: 30px 0;
+}
+
+.footer_top {
+    background-color: #4e4f4d;
+}
+
+.about_us_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about_us h3 {
+    padding: 20px 0;
+}
+
+.fa-clock {
+    color: #00bac7;
+}
+
+.time {
+    padding-bottom: 20px;
+    border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
+}
+
+.about_us p > a {
+    font-size: 20px;
+    color: white;
+}
+
+.about_us p > .fas {
+    padding-right: 10px;
+}
+
+
+.footer_bot {
+    background-color: #232523;
+}
+
+.the_end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .burger {
+        display: block
+    }
+    .nav_bot_wrapper ul {
+        display: none;
+    }
+
+}

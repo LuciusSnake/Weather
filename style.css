@@ -1,0 +1,90 @@
+:root {
+    --border-color: black;
+    --main-bg-color: aqua;
+}
+
+body {
+    margin: 0;
+}
+
+header, footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 69.79%, #60A0D0 79.17%, #3284C6 85.94%, #2D6FBD 91.15%, #173D70 100%);
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+main {
+    padding: 8px;
+
+    background-color: var(--main-bg-color);
+}
+
+.section-1 {
+    display: flex;
+
+}
+
+.section-1 div {
+    flex-direction: column;
+    display: flex;
+}
+
+.section-1 div ul {
+    list-style-type: square;
+}
+
+.section-1 div button {
+    margin: 0 0 0 auto;
+    width: 100px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-2 div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.section-2 div button {
+    width: 100px;
+    margin: 0 1.5rem;
+}
+
+button.click {
+    width: 90px !important;
+    background: silver;
+    border: 0;
+    height: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s ease-in-out;
+}
+
+/* .sas>div {
+    asdadasd
+} */
+
+button.click:hover,
+button.click:active,
+button.click:focus {
+    background: #fafafa;
+}

@@ -1,0 +1,204 @@
+:root a:hover {
+    color: lightseagreen;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.container {
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent img {
+    margin: 53px 0px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    list-style: none;
+    margin: auto 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu > img {
+    visibility: hidden;
+    margin-left: 90px;
+}
+
+.call_us a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.call_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: url(../img/header_img.png) no-repeat center;
+    width: 100%;
+    height: 378px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 500;
+    padding-top: 126px;
+    line-height: 80px;
+}
+
+header p {
+    color: white;
+    font-size: 18px;
+}
+
+.text {
+    margin-top: 72px;
+}
+
+.up {
+    color: #A22F32;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 5;
+}
+
+.down {
+    font-size: 27px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: black;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.info {
+    width: 30%;
+    border: 1px solid #F61067;
+}
+
+.info img {
+    margin: 30px 36px;
+}
+
+.info h2 {
+    padding: 10px 36px;
+}
+
+.boxes_text {
+    padding: 10px 36px;
+}
+
+footer {
+    background: black;
+    color: white;
+    min-height: 200px;
+}
+
+.hell {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;   
+    padding-top: 110px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    margin: 0 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0px auto;
+        width: 726px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .menu > img {
+        visibility: visible;
+    }
+
+    .boxes {
+        flex-wrap: wrap;
+    }
+
+    .boxes .info {
+        width: 48%;
+    }
+
+    .boxes .info:nth-child(odd) {
+        margin-top: 40px;
+    }
+
+    .boxes .info:first-child {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        width: 486px;
+        margin: 0 auto;
+    }
+
+    .call_us {
+        display: none;
+    }
+
+    .boxes .info {
+        width: 100%;
+        margin-bottom: 34px;
+    }
+
+    .boxes .info:nth-child(odd) {
+        margin-top: 0;
+    }
+
+    .all_right {
+        margin-left: 30px;
+    }
+}

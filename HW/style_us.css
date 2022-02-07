@@ -1,0 +1,43 @@
+:root {
+    --border-color: black;
+    --main-bg-color: rgb(171, 245, 101);
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #FFFFFF 0%, #a6b5f5 69.79%, #60A0D0 79.17%, #3284C6 85.94%, #4074b4 91.15%, #2a72d1 100%);
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+}
+
+nav .navigation li {
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+main {
+    padding: 20px;
+    
+    background-color: var(--main-bg-color);
+}
+
+.navigation-2 {
+    display: flex;
+}
+
+.navigation-2 li {
+    padding: 0 10px;
+    list-style-type: none;
+}

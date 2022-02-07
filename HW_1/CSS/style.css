@@ -1,0 +1,39 @@
+ :root {
+    --border-color: black;
+    --mein-bg-color: rgb(237, 238, 184);
+}
+
+body {
+    background-color: var(--mein-bg-color);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.example {
+text-align: center;
+}
+
+.table {
+    margin-bottom: 50px;
+    border: 2px solid var(--border-color);
+}
+
+tr, th {
+    border: 1px solid var(--border-color);
+    font-weight: normal;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+li {
+    padding: 5px;
+}
+
+ul li {
+    list-style-type: none;
+}
