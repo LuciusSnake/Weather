@@ -1,90 +1,71 @@
-:root {
-    --border-color: black;
-    --main-bg-color: aqua;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    margin: 0;
+.front-block {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: rgba(56, 219, 56, 0.678);
+  color: white;
 }
 
-header, footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 69.79%, #60A0D0 79.17%, #3284C6 85.94%, #2D6FBD 91.15%, #173D70 100%);
-    border: 1px solid var(--border-color);
-    padding: 8px;
-    height: 50px;
+.land-and-time {
+  padding: 20px;
+  font-size: 14px;
 }
 
-.navigation {
-    display: flex;
+.land, .time {
+  padding: 3px 0;
 }
 
-.navigation li {
-    padding: 0 10px;
-    list-style-type: none;
+.temperature {
+  text-align: center;
+  padding: 20px 0;
 }
 
-main {
-    padding: 8px;
-
-    background-color: var(--main-bg-color);
+.mb-20 {
+  margin-bottom: 20px;
 }
 
-.section-1 {
-    display: flex;
-
+.wind-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
-.section-1 div {
-    flex-direction: column;
-    display: flex;
+.compass, .windpower {
+  text-align: center;
 }
 
-.section-1 div ul {
-    list-style-type: square;
+.list-wrapper {
+  width: 1000px;
+  margin: 0 auto;
 }
 
-.section-1 div button {
-    margin: 0 0 0 auto;
-    width: 100px;
+.element-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  margin: 0 20px;
+ }
+
+.data {
+  width: 100%;
 }
 
-.section-2 {
-    display: flex;
-    flex-direction: row-reverse;
+.pic {
+  text-align: center;
+  width: 100%;
 }
 
-.section-2 div {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 0;
+.temp {
+  text-align: end;
+  width: 100%;
 }
 
-.section-2 div button {
-    width: 100px;
-    margin: 0 1.5rem;
-}
 
-button.click {
-    width: 90px !important;
-    background: silver;
-    border: 0;
-    height: 25px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-
-    transition: 0.3s ease-in-out;
-}
-
-/* .sas>div {
-    asdadasd
+/* li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+  width: 90%;
+  padding: 20px 0;
 } */
-
-button.click:hover,
-button.click:active,
-button.click:focus {
-    background: #fafafa;
-}
